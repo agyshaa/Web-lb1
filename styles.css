@@ -1,0 +1,217 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.var-a {
+    display: flex;
+    width: 100%;
+    height: 950px;
+}
+
+.var-a__left-div,
+.var-b__left-div,
+.var-e__left-div,
+.var-table__left-div {
+    background-color: yellow;
+    width: 15%;
+}
+
+.var-a__right-div,
+.var-b__right-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header,
+.footer {
+    background-color: blue;
+    width: 100%;
+    height: 15%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.main h1:hover,
+p:hover {
+    background-color: black;
+    color: rgb(66, 178, 90);
+}
+
+.main li:hover {
+    background-color: rgb(66, 178, 90);
+    color: black;
+}
+
+.var-b {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 950px;
+}
+
+.container-b {
+    display: flex;
+    height: 70%;
+}
+
+.container__header {
+    height: 15%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.var-c {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 950px;
+}
+
+.container-c {
+    display: flex;
+    height: 100%;
+}
+
+.sides-div {
+    width: 30%;
+    background-color: yellow;
+}
+
+.var-d {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 950px;
+}
+
+.container-d {
+    display: flex;
+    height: 100%;
+}
+
+.var-e {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 950px;
+}
+
+.var-e__header {
+    display: flex;
+    align-items: center;
+}
+
+.header__div {
+    height: 60%;
+    width: 30%;
+    margin-left: 50px;
+    background-color: white;
+}
+
+.header__div:hover {
+    background-color: aliceblue;
+}
+
+.container-e {
+    display: flex;
+    height: 100%;
+}
+
+.var-e__right-div {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 85%;
+}
+
+.top-div {
+    width: 85%;
+    height: 15%;
+    background-color: rgb(101, 5, 5);
+    transition: 0.4s;
+}
+
+.top-div:hover {
+    scale: 120%;
+    transition: 0.4s;
+    background-color: rgb(143, 30, 30);
+}
+
+.container-e__side-content {
+    width: 40%;
+    height: 75%;
+    background-color: blue;
+    transition: 0.4s;
+}
+
+.container-e__side-content:hover {
+    scale: 100%;
+    transition: 0.4s;
+    background-color: rgb(77, 77, 241);
+}
+
+.container-e__main {
+    width: 45%;
+    height: 75%;
+    overflow: hidden;
+}
+
+.left-side {
+    transition: 0.5s;
+}
+
+.left-side:hover {
+    width: 20%;
+    transition: 0.5s;
+}
+
+._yellow-bg {
+    background-color: yellow;
+}
+
+._blue-bg {
+    background-color: blue;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+.var-table {
+    width: 100%;
+    height: 950px;
+}
+
+.table {
+    width: 100%;
+    height: 100%;
+}
+
+.table__main {
+    height: 70%;
+}
+
+.table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
